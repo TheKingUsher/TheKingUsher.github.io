@@ -1,0 +1,13 @@
+/* 
+  Name:			SpinAround
+  Type:			Emphasis
+  Description:	
+  Version:		2.0	
+  locale:		{"zh-Hans":"转体", "en-us":"Spin Around"}
+  Class:        SpinAround
+  Parameter:    <^   {"Options":{"times":1, "clockDir":1}}   $>
+ */
+ 
+@keyframes spinAround {
+	
+}

@@ -1,0 +1,16 @@
+/* 
+  Name:			DazzleColour
+  Type:			Entrance
+  Description:	DazzleColour Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"酷炫色彩", "en-us":"Dazzle Colour"}
+  Class:        DazzleColour
+ */
+ 
+@keyframes dazzleColour{
+	
+}
+
+.dazzleColour{
+	animation-duration: 2s;
+}

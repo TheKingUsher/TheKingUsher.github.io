@@ -1,0 +1,28 @@
+/* 
+  Name:			Flip Out X
+  Type:			Exit
+  Description:	Flip Out Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"X轴翻转退出", "en-us":"Flip Out X"}
+ */
+@keyframes flipOutX {
+  0% {
+    transform: perspective(400px);
+  }
+
+  30% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+.flipOutX {
+  animation-name: flipOutX;
+  backface-visibility: visible !important;
+  animation-duration: .75s;
+}

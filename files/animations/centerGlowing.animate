@@ -1,0 +1,17 @@
+/* 
+  Name:			CenterGlowing
+  Type:			Emphasis
+  Description:	CenterGlowing Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"辉光", "en-us":"Center Glowing"}
+  Class:        CenterGlowing
+  Parameter:    <^   {"Options":{"times":1}}   $>
+ */
+ 
+@keyframes centerGlowing{
+	
+}
+
+.centerGlowing{
+	animation-duration: 2s;
+}

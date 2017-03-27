@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <fonts>
+    <font name="FontAwesome" className="" url="./files/fonts/font-0-0-2017327144515216.swf" ttfurl="./files/fonts/font-0-0-2017327144515216.ttf"/>
+    <font name="Microsoft YaHei Light" className="FskyFont_msyhl" url="./files/fonts/font-1-0-2017327144515247.swf" ttfurl="./files/fonts/font-1-0-2017327144515247.ttf"/>
+    <font name="思源黑体" className="FskyFont_syht" url="./files/fonts/font-2-0-2017327144520186.swf" ttfurl="./files/fonts/font-2-0-2017327144520186.ttf"/>
+    <font name="思源黑体" className="FskyFont_syht_Bold" url="./files/fonts/font-2-1-2017327144523693.swf" ttfurl="./files/fonts/font-2-1-2017327144523693.ttf"/>
+    <font name="思源黑体" className="FskyFont_syht_Italic" url="./files/fonts/font-2-2-2017327144527378.swf" ttfurl="./files/fonts/font-2-2-2017327144527378.ttf"/>
+    <font name="思源黑体" className="FskyFont_syht_Bold_Italic" url="./files/fonts/font-2-3-2017327144530902.swf" ttfurl="./files/fonts/font-2-3-2017327144530902.ttf"/>
+    <font name="Webding" className="" url="./files/fonts/font-3-0-2017327144534445.swf" ttfurl="./files/fonts/font-3-0-2017327144534445.ttf"/>
+    <font name="Microsoft YaHei" className="FskyFont_msyh" url="./files/fonts/font-4-0-2017327144534483.swf" ttfurl="./files/fonts/font-4-0-2017327144534483.ttf"/>
+    <font name="Microsoft YaHei" className="FskyFont_msyhbd" url="./files/fonts/font-4-1-2017327144539203.swf" ttfurl="./files/fonts/font-4-1-2017327144539203.ttf"/>
+  </fonts>
+</data>

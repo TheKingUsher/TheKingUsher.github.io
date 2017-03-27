@@ -1,0 +1,14 @@
+/* 
+  Name:			PassThrough
+  Type:			Emphasis
+  Description:	
+  Version:		2.0	
+  locale:		{"zh-Hans":"穿越", "en-us":"Pass Through"}
+  Class:        PassThrough
+  Parameter:    <^   {"Options":{"direction":3, "times":2}}   $>
+  
+ */
+ 
+@keyframes passThrough {
+	
+}

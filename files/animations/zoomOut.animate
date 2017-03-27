@@ -1,0 +1,26 @@
+/* 
+  Name:			Zoom Out
+  Type:			Exit
+  Description:	Zoom In Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"缩小", "en-us":"Zoom In Up"}
+ */
+ 
+@keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+}

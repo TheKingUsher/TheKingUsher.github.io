@@ -1,0 +1,18 @@
+/* 
+  Name:			Path Trapezoid
+  Type:			Path
+  Description:	Path Trapezoid Effect
+  Version:		2.0	
+  locale:		{"zh-Hans":"梯形", "en-us":"Path Trapezoid"}
+  Class:        PathEffect
+  Order:		06
+  Parameter:    <^	{"Options":{"times":1}, "MotionPath":{"version":"1.0", "isClose":true,"rotateType":"None","nodeInfos":[{"alpha":1,"rotation":0,"position":{"nodePointY":0.25,"nodePointX":0.25},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointY":0.25,"nodePointX":0.75},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointY":0.75,"nodePointX":1},"scale":1},{"alpha":1,"rotation":0,"position":{"nodePointY":0.75,"nodePointX":0},"scale":1}],"rect":[0,0,100,100]}}	$>
+ */
+ 
+@keyframes pathTrapezoid {
+	
+}
+
+.pathTrapezoid {
+  animation-duration: 5s;
+}
