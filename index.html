@@ -1,2 +1,473 @@
-你好，欢迎来到我的博客。
-谢谢欣赏。
+<!DOCTYPE html>
+<html class="">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+<title>大马路</title>
+<meta name="keywords" content="个性导航,浏览器导航,浏览迷,浏览器之家,大马路">
+<meta name="description" content="大马路是浏览迷、浏览器之家旗下的轻便、简洁、个性化的网址导航，为广大浏览迷提供可定制化的个人网址导航站。">
+
+<script>
+if (localStorage.getItem("DATA") != null && JSON.parse(localStorage.getItem("DATA")).nightMode) {
+	var fileref = document.createElement('link');
+	fileref.setAttribute("id","css");
+       	fileref.setAttribute("rel","stylesheet");
+       	fileref.setAttribute("type","text/css");
+       	fileref.setAttribute("href",'css/night.css');
+	if(typeof fileref != "undefined"){
+       		document.getElementsByTagName("head")[0].appendChild(fileref);
+ 	}
+}else{
+	var fileref = document.createElement('link');
+	fileref.setAttribute("id","css");
+       	fileref.setAttribute("rel","stylesheet");
+       	fileref.setAttribute("type","text/css");
+       	fileref.setAttribute("href",'css/day.css');
+	if(typeof fileref != "undefined"){
+       		document.getElementsByTagName("head")[0].appendChild(fileref);
+    	}
+}
+</script>
+
+<link href="css/top.css" rel="stylesheet" type="text/css"/>
+<link href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/wodecss.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+<script src="js/jquery.sortable.min.js"></script>
+<script type="text/javascript" src="js/tinybox.js"></script>
+<script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+.input2 {
+    position: relative;
+    width: 430px;
+    height: 30px;
+    transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    padding: 5px 5px 5px 10px;
+	background-color: #DEDEDE;
+	border-radius: 0px;
+	outline:none;
+	    margin-left: -4px;
+}
+        input:focus {  
+            background-color: #FFF;  
+        }  
+label {
+    margin-bottom: 0px;
+}
+label:active{
+    color:rgb(90, 105, 117)
+}
+label:focus{
+    color:rgb(90, 105, 117)
+}
+#Like1{
+    display: none;
+}
+
+#cnzz_stat_icon_1256996453 a {
+    display: none;
+}
+#tinybox {
+    position: absolute;
+
+    z-index: 2000;
+}
+</style>
+
+</head>
+
+<body style="background:#EFEFEF" >
+<!--搜索栏-->
+
+<div class="framework" >
+  <div class="top-section">
+    <div class="useful-links">
+	        <div id="search" class="search">
+
+			<div style="width: 100px;height: 100px;margin: 0 0 10px 45%;">
+				<a class="header_wrap" href="https://dama.lu/">
+					<div class="header_img"></div>
+				</a>
+            </div>
+
+<div class="search-wrapper">
+
+<form id="search-form" action="https://www.baidu.com/baidu" target="_blank" _lpchecked="1" style="
+    width: 530px;
+">
+<input id="q-btn" type="submit" name="btnG" value="谷歌一下" class="button2">
+<input name="q" type="hidden" id="q-word" />
+<input type="text" id="b-word" name="word" size="40"  style="color: #6B6B6B;width: 345px;    -moz-box-shadow: inset 1px 1px 5px rgba(90, 105, 117, 0.3);
+    -webkit-box-shadow: inset 1px 1px 5px rgba(90, 105, 117, 0.3);
+    box-shadow: inset 1px 1px 5px rgba(90, 105, 117, 0.3);
+	    background-image: url('./images/u6.png');
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: 5px;" class="input2" > 
+<input type="submit" id="b-btn" value="百度几下" class="button button-hook">
+</form>
+
+<script type="text/javascript" src="js/BaiduHttps_20150714_zhanzhang.js"></script>
+<script>
+	$('#b-btn, #q-btn').focus(function() {
+		var id = this.id;
+		var urlArr = {
+			'b-btn': 'https://www.baidu.com/baidu',
+			'q-btn': 'https://www.google.com/search'
+		}
+		$('#search-form').attr('action', urlArr[id]);
+	});
+	$('#search-form').on('submit', function() {
+		$('#q-word').val($('#b-word').val());
+	});
+</script>
+
+            </div>       
+        </div> 
+      <ul class="recommonds">
+            <li data_old="1" class="sigleRecommond">
+			  <span old_del="1" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.163.com/" title="网易" target="_blank">
+                   <img class="img-links2" src="./pic/2_c173acb.png" style="box-shadow: rgba(210, 17, 20, 0.75) 0 10px 10px -6px;">
+                   <span class="text-links">网 易</span>
+                </a>
+            </li>
+            <li data_old="3" class="sigleRecommond">
+			  <span old_del="3" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.sina.com.cn/" title="新浪" target="_blank">
+                   <img class="img-links2" src="./pic/4_339277d.png" style="box-shadow: rgba(204, 204, 204, 0.75) 0 10px 10px -6px;">
+                   <span class="text-links">新 浪</span>
+                </a>
+            </li>
+            <li data_old="5" class="sigleRecommond">
+			  <span old_del="5" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.qq.com/" title="腾讯" target="_blank">
+                   <img class="img-links2" src="./pic/5_9a81d3c.png" style="box-shadow: rgba(175, 187, 214, 0.75) 0 10px 10px -6px;">
+                   <span class="text-links">腾 讯</span>
+                </a>
+            </li>
+			<li data_old="4" class="sigleRecommond">
+			  <span old_del="4" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://toutiao.com/" title="今日头条" target="_blank">
+                   <img class="img-links2" src="./pic/toutiao.jpg" style="box-shadow: rgba(220, 156, 156, 0.75) 0 10px 10px -6px;">
+                   <span class="text-links">今日头条</span>
+                </a>
+            </li>
+            <li data_old="7" class="sigleRecommond">
+			  <span old_del="7" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.zhihu.com/" title="知乎" target="_blank">
+                   <img class="img-links2" src="./pic/zhihu.png" style="
+    box-shadow: rgba(22, 144, 244, 0.75) 0 10px 10px -6px;
+">
+                   <span class="text-links">知乎</span>
+                </a>
+            </li>
+			<li data_old="2" class="sigleRecommond">
+			  <span old_del="2" class="hide del-flag">×</span>
+              <a class="singleLink" href="https://pan.baidu.com/" title="百度云" target="_blank">
+                   <img class="img-links2" src="./pic/baiduyun.png" style="box-shadow: rgb(202, 202, 202) 0 10px 10px -6px;">
+                   <span class="text-links">百度云</span>
+                </a>
+            </li>
+           <li data_old="8" class="sigleRecommond">
+			  <span old_del="8" class="hide del-flag">×</span>
+             <a class="singleLink" href="http://www.weiyun.com/" title="微云" target="_blank">
+                  <img class="img-links2" src="./pic/weiyun.png" style="
+    box-shadow: rgba(0, 93, 185, 0.75) 0 10px 10px -6px;
+">
+                  <span class="text-links">微云</span>
+               </a>
+           </li>
+		   		             <li data_old="10" class="sigleRecommond">
+			  <span old_del="10" class="hide del-flag">×</span>
+           <a class="singleLink" href="http://yunpan.360.cn/" title="360云盘" target="_blank">
+                <img class="img-links2" src="./pic/360yunpan.png" style="
+    box-shadow: rgba(0, 144, 208, 0.75) 0 10px 10px -6px;
+">
+                <span class="text-links">360云盘</span>
+             </a>
+         </li>
+            <li data_old="6" class="sigleRecommond">
+			  <span old_del="6" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://sspai.com/" title="少数派" target="_blank">
+                   <img class="img-links2" src="./pic/shaoshupai.png" style="
+    box-shadow: rgba(255,0,10,0.75) 0 10px 10px -6px;
+">
+                   <span class="text-links">少数派</span>
+                </a>
+            </li>
+         <li data_old="9" class="sigleRecommond">
+			  <span old_del="9" class="hide del-flag">×</span>
+           <a class="singleLink" href="http://www.dgtle.com/" title="数字尾巴" target="_blank">
+                <img class="img-links2" src="./pic/shuziweiba.png" style="
+    box-shadow: rgba(95, 100, 121, 0.75) 0 10px 10px -6px;
+">
+                <span class="text-links">数字尾巴</span>
+             </a>
+         </li>
+          <li data_old="11" class="sigleRecommond">
+			  <span old_del="11" class="hide del-flag">×</span>
+           <a class="singleLink" href="http://www.cnbeta.com/" title="cnBeta" target="_blank">
+                <img class="img-links2" src="./pic/cnBeta.png" style="
+    box-shadow: rgba(0, 157, 255, 0.75) 0 10px 10px -6px;
+">
+                <span class="text-links">cnBeta</span>
+             </a>
+         </li>
+          <li data_old="12" class="sigleRecommond">
+			  <span old_del="12" class="hide del-flag">×</span>
+           <a class="singleLink" href="http://www.ithome.com/" title="IT之家" target="_blank">
+                <img class="img-links2" src="./pic/ithome.png" style="
+    box-shadow: rgba(210, 34, 34, 0.75) 0 10px 10px -6px;
+">
+                <span class="text-links">IT之家</span>
+             </a>
+         </li>
+          <li data_old="13" class="sigleRecommond">
+			  <span old_del="13" class="hide del-flag">×</span>
+           <a class="singleLink" href="http://www.zdfans.com/" title="zd423" target="_blank">
+                <img class="img-links2" src="./pic/zd423.png" style="
+    box-shadow: rgba(0,134,61,0.75) 0 10px 10px -6px;
+">
+                <span class="text-links">zd423</span>
+             </a>
+         </li>
+          <li data_old="14" class="sigleRecommond">
+			  <span old_del="14" class="hide del-flag">×</span>
+           <a class="singleLink" href="http://liulanmi.com/" title="浏览迷" target="_blank">
+                <img class="img-links2" src="./pic/liulanmi.png" style="
+    box-shadow: rgba(138, 183, 124, 0.75) 0 10px 10px -6px;
+">
+                <span class="text-links">浏览迷</span>
+             </a>
+         </li>
+            <li data_old="15" class="sigleRecommond">
+			  <span old_del="15" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.weibo.com/" title="新浪微博" target="_blank">
+                   <img class="img-links2" src="./pic/13_81b410c.png" style="
+    box-shadow: 0 10px 10px -6px rgba(255, 223, 128, 0.75);
+">
+                   <span class="text-links">新浪微博</span>
+                </a>
+            </li>
+            <li data_old="16" class="sigleRecommond">
+			  <span old_del="16" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.taobao.com/" title="淘宝网" target="_blank">
+                   <img class="img-links2" src="./pic/7_fd6028a.png" style="
+    box-shadow: 0 10px 10px -6px rgba(252, 67, 0, 0.75);
+">
+                   <span class="text-links">淘宝网</span>
+                </a>
+            </li>
+            <li data_old="17" class="sigleRecommond">
+			  <span old_del="17" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.tmall.com/" title="天猫" target="_blank">
+                   <img class="img-links2" src="./pic/16_8b1d11d.png" style="
+    box-shadow: 0 10px 10px -6px rgba(34, 24, 22, 0.75);
+">
+                   <span class="text-links">天 猫</span>
+                </a>
+            </li>
+            <li data_old="18" class="sigleRecommond">
+			  <span old_del="18" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.smzdm.com/" title="值得买" target="_blank">
+                   <img class="img-links2" src="./pic/zhidemai.png" style="
+    box-shadow: 0 10px 10px -6px rgba(202, 55, 60, 0.75);
+">
+                   <span class="text-links">值得买</span>
+                </a>
+            </li>
+			 <li data_old="19" class="sigleRecommond">
+			  <span old_del="19" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.iqiyi.com/" title="爱奇艺" target="_blank">
+                   <img class="img-links2" src="./pic/10_0d65781.png" style="
+    box-shadow: 0 10px 10px -6px rgba(7, 218, 0, 0.75);
+">
+                   <span class="text-links">爱奇艺</span>
+                </a>
+            </li>
+            <li data_old="20" class="sigleRecommond">
+			  <span old_del="20" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.youku.com/" title="优酷网" target="_blank">
+                   <img class="img-links2" src="./pic/11_f3f7f3b.png" style="
+    box-shadow: 0 10px 10px -6px rgba(213, 213, 213, 0.75);
+">
+                   <span class="text-links">优酷网</span>
+                </a>
+            </li>
+            <li data_old="21" class="sigleRecommond">
+			  <span old_del="21" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.tudou.com/" title="土豆网" target="_blank">
+                   <img class="img-links2" src="./pic/12_185337b.png" style="
+    box-shadow: 0 10px 10px -6px rgba(255, 106, 0, 0.75);
+">
+                   <span class="text-links">土 豆</span>
+                </a>
+            </li>
+			<li data_old="22" class="sigleRecommond">
+			  <span old_del="22" class="hide del-flag">×</span>
+             <a class="singleLink" href="http://v.qq.com/" title="腾讯视频" target="_blank">
+                  <img class="img-links2" src="./pic/txshipin.png" style="
+    box-shadow: 0 10px 10px -6px rgb(164, 201, 185);
+">
+                  <span class="text-links">腾讯视频</span>
+               </a>
+           </li>
+		   <li data_old="23" class="sigleRecommond">
+			  <span old_del="23" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.bilibili.com/" title="哔哩哔哩" target="_blank">
+                   <img class="img-links2" src="./pic/bilibili.png" style="
+    box-shadow: 0 10px 10px -6px rgba(209, 80, 117, 0.75);
+">
+                   <span class="text-links">哔哩哔哩</span>
+                </a>
+            </li>
+			<li data_old="24" class="sigleRecommond">
+			  <span old_del="24" class="hide del-flag">×</span>
+             <a class="singleLink" href="http://music.163.com/" title="网易云音乐" target="_blank">
+                  <img class="img-links2" src="./pic/wangyiyun.png" style="
+    box-shadow: 0 10px 10px -6px rgba(241, 33, 0, 0.75);
+">
+                  <span class="text-links">网易云音乐</span>
+               </a>
+           </li>
+            <li data_old="25" class="sigleRecommond">
+			  <span old_del="25" class="hide del-flag">×</span>
+              <a class="singleLink" href="http://www.Amazon.cn" title="亚马逊" target="_blank">
+                   <img class="img-links2" src="./pic/yamaxun.png" style="
+    box-shadow: 0 10px 10px -6px rgba(118, 173, 210, 0.75);
+">
+                   <span class="text-links">亚马逊</span>
+                </a>
+            </li>
+           <li data_old="26" class="sigleRecommond">
+			  <span old_del="26" class="hide del-flag">×</span>
+             <a class="singleLink" href="http://www.jd.com/" title="京东商城" target="_blank">
+                  <img class="img-links2" src="./pic/26_ce19bec.png" style="
+    box-shadow: 0 10px 10px -6px rgba(249, 52, 61, 0.75);
+">
+                  <span class="text-links">京东</span>
+               </a>
+           </li>
+           <li data_old="27" class="sigleRecommond">
+			  <span old_del="27" class="hide del-flag">×</span>
+             <a class="singleLink" href="http://www.meituan.com/" title="美团" target="_blank">
+                  <img class="img-links2" src="./pic/27_deebcd3.png" style="
+    box-shadow: 0 10px 10px -6px rgba(120, 216, 204, 0.75);
+">
+                  <span class="text-links">美 团</span>
+               </a>
+           </li>
+		   
+      </ul>
+        
+    </div> 
+  </div>
+  <!-- 模板内容 -->
+  <div class="hide" id="tpl-box">
+	<li data_add="0" class="item sigleRecommond">
+		<span add_del="0" class="hide del-flag">×</span>
+		<a class="singleLink" href="" title="" target="_blank">
+			<span class="icon-box"></span>
+			<span class="text-links"></span>
+		</a>
+    </li>
+  </div>
+  <div style="font-size: 10px;margin: auto;text-align: center;padding-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+	    z-index: 999;
+	">
+<a id="banquan" href="#" >
+    2015-2016©版权归SMALLK&FL所有 /
+	<a id="hezuo" href="http://liulanmi.com/" target="_blank">
+     ©浏览迷liulanmi.com
+    </a>
+	<a  id="zanzhu1"  href="http://smallk.net/" target="_blank"> / 科技临时站</a>
+
+<!--<span onclick="javascript:document.getElementById('css').href ='/css/night.css'" id="yejian">夜间模式</span>
+	<span onclick="javascript:document.getElementById('css').href ='/css/guider_9b55ec2.css'" id="rijian">日间模式</span>-->
+	<a href="javascript:void(0)" id="nightMode" class='rijian'>夜间模式</a>
+    </a>
+	<div style="display:none">
+	<script src="https://s4.cnzz.com/z_stat.php?id=1260012774&web_id=1260012774 " language="JavaScript" style="display: none;"></script>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/index.js?v160901"></script>
+<script>
+if (localStorage.getItem("DATA") != null && JSON.parse(localStorage.getItem("DATA")).nightMode) {
+	document.getElementById('nightMode').setAttribute('class','yejian');
+	document.getElementById('nightMode').innerHTML = ("日间模式");
+}else{
+	document.getElementById('nightMode').setAttribute('class','rijian');
+	document.getElementById('nightMode').innerHTML = ("夜间模式");
+}
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="editModalLabel">添加/编辑 导航</h4>
+      </div>
+      <div class="modal-body">
+        <form id="form-add">
+		  <div class="form-group">
+			<label for="web_url">网站地址</label>
+			<input type="text" class="form-control" id="web_url" placeholder="https://dama.lu">
+		  </div>
+		  <div class="form-group">
+			<label for="web_name">网站名称</label>
+			<input type="text" class="form-control" id="web_name" placeholder="大马路">
+		  </div>
+		  <div class="form-group">
+			<label for="web_name2">简称</label>
+			<input type="text" class="form-control" id="web_name2" placeholder="导航（建议两个字中文或者四个大小写英文）">
+		  </div>
+		  <div class="form-group">
+			<label for="web_color">背景颜色 </label>
+			<select id="web_color">
+				<!--<option value="#2a78dc">蓝</option>
+				<option value="#cdcac8">灰</option>
+				<option value="#FFDF80">黄</option>
+				<option value="#86b57c">绿</option>
+				<option value="#fc4300">橘</option>
+				<option value="#20b8ad">青</option>
+				<option value="#C8181B">红</option>
+				<option value="#884898">紫</option>-->
+				<option value="42, 120, 220">蓝</option>
+				<option value="205, 202, 200">灰</option>
+				<option value="255, 223, 128">黄</option>
+				<option value="134, 181, 124">绿</option>
+				<option value="252, 67, 0">橘</option>
+				<option value="32, 184, 173">青</option>
+				<option value="200, 24, 27">红</option>
+				<option value="136, 72, 152">紫</option>
+			</select> <span class="show-color" style="background-color: #2a78dc; box-shadow: 0px 3px 10px rgba(42, 120, 220, 0.15);"></span>
+		  </div>
+		  <button type="submit" id="save-btn" class="btn btn-success">提交</button>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tool-box">
+	<a data-toggle="modal" id="add-btn" style="z-index: 50;" data-target="#editModal" class="btn btn-success btn-lg">添加</a>
+	<a id="manger-btn" style="z-index: 100;" class="btn btn-default btn-lg btn-primary" >管理</a>
+	<a id="reset-btn" style="z-index: 50;" class="btn btn-default btn-lg btn-warning" >重置</a>
+</div>
+</body>
+</html>
